@@ -1,4 +1,4 @@
-# Financial Ratio Analysis Dashboard1
+# Financial Ratio Analysis Dashboard
 
 **ACC102 Mini Assignment – Track 4: Interactive Data Analysis Tool**
 
