@@ -63,13 +63,19 @@ vi. **Interactive Dashboard** – Build a Streamlit web application (`app.py`) w
 **Prerequisites**: Python 3.9 or above, an active WRDS account.
 
 **Step 1 — Clone the repository**
+```
 
 git clone https://github.com/SufeiCao/acc102-financial-ratio-dashboard.git
 cd acc102-financial-ratio-dashboard
 
+```
+
 **Step 2 — Install dependencies**
+```
 
 pip install -r requirements.txt
+
+```
 
 **Step 3 — Set WRDS credentials**
 Open the file `app.py` in any text editor.
@@ -80,12 +86,15 @@ The lines should look like this before editing:
 ```python
 db = wrds.Connection(wrds_username='YOUR_WRDS_USERNAME',
                      wrds_password='YOUR_WRDS_PASSWORD')
+```
 
 After editing, save the file.
 
 Step 4 — Run the Streamlit application
 
+```
 streamlit run app.py
+```
 
 Open your browser and go to http://localhost:8501.
 
@@ -93,12 +102,14 @@ Open your browser and go to http://localhost:8501.
 
 6. Repository Structure
 
+```
 acc102-financial-ratio-dashboard/
 │
 ├── financial_analysis.ipynb    # Full analytical workflow
 ├── app.py                       # Streamlit interactive dashboard
 ├── README.md                    # This documentation
 └── requirements.txt             # Python package dependencies
+```
 
 ---
 
