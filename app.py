@@ -13,8 +13,8 @@ st.markdown("**Data Source**: WRDS Compustat North America – Fundamentals Annu
 # ---------- Load data from WRDS ----------
 @st.cache_data(ttl=3600)
 def load_data():
-    db = wrds.Connection(wrds_username='YOUR_WRDS_USERNAME',
-                         wrds_password='YOUR_WRDS_PASSWORD')
+    db = wrds.Connection(wrds_username='sufeicao24',
+                         wrds_password='caosufei0715')
     query = """
     SELECT TIC, FYEAR, REVT, COGS, NI, AT, LT, ACT, LCT, CEQ
     FROM COMP.FUNDA
