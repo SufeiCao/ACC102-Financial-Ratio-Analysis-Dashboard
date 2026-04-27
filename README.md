@@ -115,7 +115,7 @@ acc102-financial-ratio-dashboard/
 
 7. Demo Video
 
-[Insert Mediasite link here after uploading your video]
+[Mediasite link: https://video.xjtlu.edu.cn/Mediasite/Play/fb15fd582db145f39bd0810fbe77e6e51d]
 
 ---
 
